@@ -88,28 +88,29 @@ def requests_collector(error_list, status, parsed_list):
 
 def directory_parser():
     'Parses directory and if any file with .log ext is found, parses file and dumps results into json file'
-    for filename in os.listdir(directory):
-        file = filename
-        if filename.endswith('.log'):
-            method_counter(file)
-            ip_cather(file)
-            duration_parser(file)
-            client_error_list = []
-            server_error_list = []
-            eror_catcher(client_error, client_error_list, file)
-            eror_catcher(server_error, server_error_list, file)
-            client_list = []
-            server_list = []
-            requests_collector(client_error_list, client_error, client_list)
-            requests_collector(server_error_list, server_error, server_list)
-            top_10_client_errors = sorted(client_list, key=lambda i: len(i['DURATION']), reverse=True)[:10]
-            sumlist.append(top_10_client_errors)
-            top_10_server_errors = sorted(server_list, key=lambda i: len(i['DURATION']), reverse=True)[:10]
-            sumlist.append(top_10_server_errors)
-            with open('output.json', 'w') as pfile:
-                json.dump(sumlist, pfile, indent=4)
-        else:
-            pass
+    if directory:
+        for filename in os.listdir(directory):
+            file = filename
+            if filename.endswith('.log'):
+                method_counter(file)
+                ip_cather(file)
+                duration_parser(file)
+                client_error_list = []
+                server_error_list = []
+                eror_catcher(client_error, client_error_list, file)
+                eror_catcher(server_error, server_error_list, file)
+                client_list = []
+                server_list = []
+                requests_collector(client_error_list, client_error, client_list)
+                requests_collector(server_error_list, server_error, server_list)
+                top_10_client_errors = sorted(client_list, key=lambda i: len(i['DURATION']), reverse=True)[:10]
+                sumlist.append(top_10_client_errors)
+                top_10_server_errors = sorted(server_list, key=lambda i: len(i['DURATION']), reverse=True)[:10]
+                sumlist.append(top_10_server_errors)
+                with open('output.json', 'w') as pfile:
+                    json.dump(sumlist, pfile, indent=4)
+    else:
+        pass
 
 
 # If --f key provided, parses provided file and outputs results into json file

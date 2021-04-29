@@ -1,0 +1,239 @@
+[
+    {
+        "GET": 2247848,
+        "POST": 918853,
+        "HEAD": 49971,
+        "PUT": 70,
+        "T": 198,
+        "OPTIONS": 39,
+        "DELETE": 1
+    },
+    [
+        "193.106.31.130",
+        "198.50.156.189",
+        "5.112.235.245",
+        "5.114.231.216",
+        "5.113.18.208",
+        "91.218.225.68",
+        "79.62.229.212",
+        "149.56.83.40",
+        "5.114.64.184",
+        "5.113.216.211"
+    ],
+    [
+        {
+            "IP": "76.10.183.19",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "102026810"
+        },
+        {
+            "IP": "165.225.72.111",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "102308046"
+        },
+        {
+            "IP": "24.36.38.42",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "102858383"
+        },
+        {
+            "IP": "93.221.109.16",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103015095"
+        },
+        {
+            "IP": "93.221.109.16",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103015277"
+        },
+        {
+            "IP": "186.213.224.150",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103252832"
+        },
+        {
+            "IP": "95.89.159.147",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103258439"
+        },
+        {
+            "IP": "95.89.159.147",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103258680"
+        },
+        {
+            "IP": "93.235.57.234",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103259659"
+        },
+        {
+            "IP": "166.88.123.204",
+            "METHOD": "GET",
+            "STATUS": "200",
+            "URL": "/apache-log/access.log",
+            "DURATION": "103352132"
+        }
+    ],
+    [
+        {
+            "IP": "199.189.149.93",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "104.129.1.156",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "213.251.182.117",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_contenthistory&view=history&list[ordering]=&item_id=75&type_id=1&list[select]=(ExtractValue(1,(select%20concat_ws(0x3a,user(),version(),database()))))",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "77.222.99.115",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "92.53.113.10",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_contenthistory&view=history&list[ordering]=&item_id=75&type_id=1&list[select]=(ExtractValue(1,(select%20concat_ws(0x3a,user(),version(),database()))))",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "77.222.109.71",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "1.0.188.61",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "89.36.66.177",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "158.222.205.98",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_easyblog&view=dashboard&layout=write",
+            "DURATION": "1397"
+        },
+        {
+            "IP": "37.115.33.169",
+            "METHOD": "GET",
+            "STATUS": "404",
+            "URL": "/index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=1",
+            "DURATION": "1397"
+        }
+    ],
+    [
+        {
+            "IP": "176.106.14.111",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php?option=com_content&view=article'A=0&id=50&Itemid=56",
+            "DURATION": "1499"
+        },
+        {
+            "IP": "23.89.158.212",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php?option=com_content&view=article'A=0&id=46&Itemid=54",
+            "DURATION": "1499"
+        },
+        {
+            "IP": "85.174.123.233",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php?option=com_content&view=article'A=0&id=46&Itemid=54",
+            "DURATION": "1499"
+        },
+        {
+            "IP": "192.157.230.51",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php?option=com_content&view=article'A=0&id=46&Itemid=54",
+            "DURATION": "1499"
+        },
+        {
+            "IP": "23.88.113.12",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php?option=com_content&view=article'A=0&id=46&Itemid=54",
+            "DURATION": "1499"
+        },
+        {
+            "IP": "91.236.75.51",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php/component/users/?view=registration",
+            "DURATION": "1505"
+        },
+        {
+            "IP": "176.226.173.201",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php/login?view=registration",
+            "DURATION": "1505"
+        },
+        {
+            "IP": "176.226.173.201",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php/user-profile?view=login",
+            "DURATION": "1491"
+        },
+        {
+            "IP": "176.226.173.201",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php/component/users/?view=login",
+            "DURATION": "1491"
+        },
+        {
+            "IP": "176.226.173.201",
+            "METHOD": "GET",
+            "STATUS": "500",
+            "URL": "/index.php/login-form?view=registration",
+            "DURATION": "1505"
+        }
+    ]
+]
