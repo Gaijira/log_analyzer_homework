@@ -1,7 +1,7 @@
 Log analyzer Homework  
 Consists of:  
 log_analyzer.py - script  
-REAME.md - readme  
+README.md - readme  
 Script to parse '.log' files with 2 options implemented
 _____________________________________
 --d 'path to the directory' - is used to parse all files in directory  
